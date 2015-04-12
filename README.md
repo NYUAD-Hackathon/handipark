@@ -22,9 +22,9 @@ Makani is an Android mobile application that serves disabled people to find the 
 
 
 - Mentors:
+ 	- Razan Qraini
  	- Angela Zhang
  	- Abdallah Zoubir Ourad
- 	- Razan Qraini
 
 #### User Story:
 
