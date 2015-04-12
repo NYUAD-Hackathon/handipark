@@ -1,9 +1,9 @@
-# handipark
-the only disability is bad attitude
-
 ## Makani (HandiPark)
 
-Team Members:
+the only disability is bad attitude
+
+
+####  Team Members:
 
 - Students:
 		-Fahad AlQuait
