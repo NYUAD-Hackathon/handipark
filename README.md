@@ -19,9 +19,9 @@ Android app for finding handicap parking in Arab countries
 	- Balsam Alkouz
 
 
-##### App Description:
+####  App Description:
 
-Makani is and Android mobile application that serves disabled people to find the nearest parking spots. The user experience and sensitivity on the topic was taken into consideration while designing. The App has many features including:
+Makani is an Android mobile application that serves disabled people to find the nearest parking spots. The user experience and sensitivity on the topic was taken into consideration while designing. The App has many features including:
 
     1-	FIND the user’s location and the nearest parking spots available.
     2-	NAVIGATE the users to the spot they choose.
@@ -53,3 +53,4 @@ Clicking on the “Report Violation” button will open the camera for the user 
     2-	Verification for addition or removing of spots.(The spot is not added or deleted except there are a certain number of requests for it.
     3-	A Complain option to request additional handicap parking.
     4-	Review a parking spot (eg. If the spot does not have a pavement ramp)
+
