@@ -6,18 +6,18 @@ the only disability is bad attitude
 ####  Team Members:
 
 - Students:
-	-Fahad AlQuait
-	-Hanan El Hadad
+	- Fahad AlQuait
+	- Hanan El Hadad
 	- Saeed Motamed
-	-Ahmed Mohamed
-	-Balsam Alkouz
+	- Ahmed Mohamed
+	- Balsam Alkouz
 
 
  - Mentors:
         -Abdalla Zoubir Ourad
-	    -Razan Qraini
-	    -Angela Zhang
-        -Ayah Soufan
+	 -Razan Qraini
+	 -Angela Zhang
+         -Ayah Soufan
 
 ##### App Description: 
 
