@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,7 +30,9 @@ public class NavigatorActivity extends Activity implements View.OnClickListener{
     static final int REQUEST_IMAGE_CAPTURE = 1;
     TextView myLocation;
     private String id;
-    private Button navigateButton;
+    private ImageButton navigateButton;
+    private double lat;
+    private double lng;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,13 +43,18 @@ public class NavigatorActivity extends Activity implements View.OnClickListener{
         deleteButton = (Button) findViewById(R.id.delete);
         mImageView =(ImageView) findViewById(R.id.hidden);
         myLocation =(TextView) findViewById(R.id.textView);
-        navigateButton = (Button) findViewById(R.id.nav_btn);
+        navigateButton = (ImageButton) findViewById(R.id.nav_btn);
+
+        navigateButton.setOnClickListener(this);
         reportButton.setOnClickListener(this);
         deleteButton.setOnClickListener(this);
 
 
         Intent markerId = getIntent();
         id =markerId.getStringExtra("id");
+        lat = markerId.getDoubleExtra("lat", 0);
+        lng = markerId.getDoubleExtra("lng", 0);
+
         Log.i("MakerId " , id);
 
     }
@@ -66,10 +74,10 @@ public class NavigatorActivity extends Activity implements View.OnClickListener{
             startActivity(intent);*/
             }
             if (id == R.id.nav_btn) {
-                Toast.makeText(getApplicationContext(), "button1 was clicked", Toast.LENGTH_SHORT).show();
-                //Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                //        Uri.parse("http://maps.google.com/maps?daddr=" + longitude + "," + latitude));
-                //startActivity(intent);
+                //Toast.makeText(getApplicationContext(), "button1 was clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("http://maps.google.com/maps?daddr=" + lat + "," + lng));
+                startActivity(intent);
             }
         }
     private void dispatchTakePictureIntent() {

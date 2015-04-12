@@ -215,8 +215,13 @@ public class MapsActivity extends FragmentActivity implements LocationListener, 
     public boolean onMarkerClick(Marker marker) {
         Log.i("onMarkerClick", "0clicked");
         String id = marker.getTitle();
+        double lat = marker.getPosition().latitude;
+        double lng = marker.getPosition().longitude;
+
         Intent nav = new Intent(getApplicationContext(), NavigatorActivity.class);
         nav.putExtra("id", id);
+        nav.putExtra("lat", lat);
+        nav.putExtra("lng", lng);
         startActivity(nav);
 
         return false;
