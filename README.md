@@ -1,5 +1,5 @@
 # Handipark
-Android app for finding handicap parking in Arab countries
+Android app to find handicap parking in Arab countries and report parking violations.
 
 ####  App Description:
 
