@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="add_spot">I found a new parking</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_navigator">Parks Map</string>
+    <string name="title_activity_report">Report Violation</string>
 </resources>
