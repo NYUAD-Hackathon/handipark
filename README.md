@@ -14,10 +14,10 @@ the only disability is bad attitude
 
 
  - Mentors:
-        -Abdalla Zoubir Ourad
-	 -Razan Qraini
-	 -Angela Zhang
-         -Ayah Soufan
+	-Abdalla Zoubir Ourad
+	-Razan Qraini
+	-Angela Zhang
+	-Ayah Soufan
 
 ##### App Description: 
 
