@@ -13,7 +13,7 @@ the only disability is bad attitude
 	- Balsam Alkouz
 
 
- - Mentors:
+- Mentors:
 	-Abdalla Zoubir Ourad
 	-Razan Qraini
 	-Angela Zhang
